@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"run": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"rewards": {
+		"commands": [
+			"scoreboard objectives add e101 dummy",
+			"advancement revoke @s only ixdl:commands",
+			"scoreboard players add @s e101 1"
+		]
+	}
+}
