@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "trigger": "minecraft:tick",
+  "values": [
+    "ixdl:init/login_detector"
+  ]
+}
